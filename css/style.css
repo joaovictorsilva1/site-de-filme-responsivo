@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2? family= Lobster & family= Noto+Serif+NP+Hmong & family= Roboto:ital,wght@0,100;0,300;0,400;0,500; 0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Serif+NP+Hmong&display=swap');
+
+* {
+    box-sizing: border-box;
+    background: black;
+
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.imagem-carrosel {
+    height: 500px;
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-rodape {
+    padding: 100px;
+}
+
+footer {
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #180F4A, #090422, black);
+    text-align: center;
+    border-top: 5px solid #FF2978;
+}
+
+.agencia {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 34px;
+}
+
+.titulo {
+    font-family: 'Lobster', cursive;
+    color: rgb(185, 36, 36);
+    margin: 2px;
+    font-size: 34px;
+    text-decoration: none;
+}
+
+.titulo:hover {
+    color: rgb(185, 36, 36);
+}
+
+.texto {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-login {
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    text-decoration: none;
+    background:#594DEB;
+    border-radius: 5px;
+    padding: 20px;
+    width: auto;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.button-login:hover {
+    background: #4949EB;
+}
+
+input[type="text"] {
+    display: flex;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border: 5px;
+}
+
+input[type="password"] {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border: 5px;
+}
+
+.logo-rodape-login {
+    padding: 100px;
+}
+
+.carousel-indicators {
+    background: none;
+    position: relative;
+    width: auto;
+    display: inline-block;
+    top: 500px;
+}
+
+
+.container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-checkbox input{
+    display: none;
+}
+
+.custom-checkbox input + label:before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 4px;
+    background: white;
+    border: 1px solid gray;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    margin-bottom: 3px;
+}
+
+.custom-checkbox input:checked + label:before{
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: gray;
+    background-position: center;
+}
+
+.texto-link{
+    text-decoration: none;
+}
+
+.texto-link:hover{
+    text-decoration: underline;
+    color: gray;
+}
+
+a.drops{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+  
+    border: none;
+  
+}
+
+a.drops:hover{
+    color: black;
+    background: #ccc;
+    border: none;
+    
+}
+
+.dropdown-menu:hover {
+    background-color: black;
+}
+
+.nav-link:hover{
+  text-decoration: underline;
+}

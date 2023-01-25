@@ -1,0 +1,36 @@
+@media screen and (max-width:600px) {
+
+    * {
+        background-color: black;
+    }
+
+}
+
+@media screen and (min-width:600px) {
+
+    * {
+        background-color: black;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    * {
+        background-color: black;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+
+    * {
+        background-color: black;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    * {
+        background-color: black;
+    }
+}
+
